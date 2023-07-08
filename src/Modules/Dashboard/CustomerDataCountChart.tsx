@@ -51,7 +51,7 @@ const CustomerDataCountChart: React.FC<ICountChartProps> = (props) => {
     };
 
     return (
-        <div className="card shadow-1 flex flex-column">
+        <div className="card shadow-1 flex flex-column" data-cy="customer-data-count-charts">
             <h2>{heading}</h2>
             <Chart type={chartType} data={chartData} />
         </div>

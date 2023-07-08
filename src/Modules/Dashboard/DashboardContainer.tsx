@@ -63,7 +63,7 @@ const DashboardContainer: React.FC = () => {
     };
     return (
         <>
-            <TotalCountsCards />
+            <TotalCountsCards/>
             <div className="grid">
                 <div className="col-12 md:col-6 xl:col-3">
                     <CustomerDataCountChart {...anualSalaryProps} />

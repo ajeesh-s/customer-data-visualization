@@ -57,9 +57,9 @@ const TotalCountsCards: React.FC = (props) => {
     ];
 
     return (
-        <div className="grid">
+        <div className="grid" data-cy="total-counts-cards">
             {data.map((item, index) => (
-                <div key={index} className="col-12 md:col-6 xl:col-3">
+                <div key={index} className="col-12 md:col-6 xl:col-3" data-cy="data-count-card">
                     <div className="card shadow-1 flex flex-column">
                         <div className="flex align-items-center">
                             <div className="flex justify-content-center align-items-center p-2 border-round">
@@ -69,7 +69,7 @@ const TotalCountsCards: React.FC = (props) => {
                                     style={{ backgroundColor: item.color, color: "#ffffff" }}
                                 />
                             </div>
-                            <span className="text-xl ml-2 font-semibold">{item.label}</span>
+                            <span className="text-xl ml-2 font-semibold" data-cy="data-count-card-heading">{item.label}</span>
                         </div>
                         <div className="grid mt-3">
                             <div className="col-6 flex flex-column p-3 text-center border-right-1 surface-border">
