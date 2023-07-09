@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/customer-data-visualization/static/css/main.e58d21b1.css",
+    "main.js": "/customer-data-visualization/static/js/main.d8d393bf.js",
+    "static/js/708.2f63940a.chunk.js": "/customer-data-visualization/static/js/708.2f63940a.chunk.js",
+    "static/js/787.9ed2f14b.chunk.js": "/customer-data-visualization/static/js/787.9ed2f14b.chunk.js",
+    "static/media/primeicons.svg": "/customer-data-visualization/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/customer-data-visualization/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/customer-data-visualization/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/customer-data-visualization/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/customer-data-visualization/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/customer-data-visualization/static/media/color.6441e63a57ccc5105bad.png",
+    "static/media/male.svg": "/customer-data-visualization/static/media/male.2957d3c0797590906254778866040137.svg",
+    "static/media/female.svg": "/customer-data-visualization/static/media/female.13c4510a1b94fa5f3d70d8cb0b239c4f.svg",
+    "index.html": "/customer-data-visualization/index.html",
+    "main.e58d21b1.css.map": "/customer-data-visualization/static/css/main.e58d21b1.css.map",
+    "main.d8d393bf.js.map": "/customer-data-visualization/static/js/main.d8d393bf.js.map",
+    "708.2f63940a.chunk.js.map": "/customer-data-visualization/static/js/708.2f63940a.chunk.js.map",
+    "787.9ed2f14b.chunk.js.map": "/customer-data-visualization/static/js/787.9ed2f14b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e58d21b1.css",
+    "static/js/main.d8d393bf.js"
+  ]
+}
