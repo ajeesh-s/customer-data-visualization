@@ -3,7 +3,6 @@ import { IAppState } from "../Types/StateTypes";
 import { ICustomer } from "../Types/CustomerTypes";
 
 export const reducer = (state: IAppState, action: AppAction): IAppState => {
-  debugger;
   switch (action.type) {
     case "SET_CUSTOMERS":
       return { ...state, customers: action.payload };

@@ -21,6 +21,7 @@ const ConfirmDialog: React.FC<IConfirmDialogProps> = (props) => {
                 onClick={closeClick}
             />
             <Button
+                data-cy="confirm-dialog-yes-btn"
                 label="Yes"
                 size="small"
                 icon="pi pi-check"
@@ -45,7 +46,7 @@ const ConfirmDialog: React.FC<IConfirmDialogProps> = (props) => {
                     className="pi pi-exclamation-triangle mr-3"
                     style={{ fontSize: "1rem" }}
                 />
-                <span>{message}</span>
+                <span data-cy="confirm-dialog-message">{message}</span>
             </div>
         </Dialog>
     );
