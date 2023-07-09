@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FilterMatchMode } from "primereact/api";
 import { Gender, ICustomer } from "../../Types/CustomerTypes";
 import { Column } from "primereact/column";
 import { DataTable } from "primereact/datatable";
@@ -22,17 +21,6 @@ const CustomerList: React.FC<ICustomerListProps> = (props) => {
   const [genders] = useState(["Male", "Female"]);
   const [selectedCustomers, setSelectedCustomers] = useState<ICustomer[]>([]);
   const [showDeleteDialog, setShowDeleteDialog] = useState<boolean>(false);
-  // const [filters, setFilters] = useState({
-  //     "customer name": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     "customer e-mail": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     country: { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     gender: { value: null, matchMode: FilterMatchMode.EQUALS },
-  //     age: { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     "annual Salary": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     "credit card debt": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     "net worth": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  //     "car purchase amount": { value: null, matchMode: FilterMatchMode.CONTAINS },
-  // });
 
   const genderRowFilterTemplate = (options: any) => {
     return (
